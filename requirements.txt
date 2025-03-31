@@ -1,11 +1,8 @@
-Python 3.x
-
-SQLite3 (for database storage)
-
-Twilio API (for sending SMS alerts)
-
-Pandas (for handling structured data)
-
-Plumber or PyPDF2 (for extracting vehicle details from PDFs)
-
-HDF5 (h5py) (if storing data in .h5 format)
+streamlit
+tensorflow
+pandas
+numpy
+sklearn
+twilio
+h5py
+pdfplumber
