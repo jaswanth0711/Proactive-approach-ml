@@ -1,3 +1,17 @@
+file_path = "/mount/src/proactive-approach-ml/model.py"
+
+# Read file and remove invalid lines
+with open(file_path, "r") as f:
+    lines = f.readlines()
+
+# Keep only valid Python lines
+cleaned_lines = [line for line in lines if not line.strip().startswith("<!--")]
+
+# Write back the cleaned file
+with open(file_path, "w") as f:
+    f.writelines(cleaned_lines)
+
+print("Cleaned model.py successfully!")
 import numpy as np
 import pandas as pd
 import tensorflow as tf
