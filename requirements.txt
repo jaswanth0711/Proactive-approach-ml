@@ -2,7 +2,7 @@ streamlit
 tensorflow
 pandas
 numpy
-sklearn
+scikit-learn
 twilio
 h5py
 pdfplumber
