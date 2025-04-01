@@ -33,7 +33,11 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-from google.colab import files
+try:
+    from google.colab import files
+except ImportError:
+    files = None  # Handle the absence of google.colab
+
 import io
 
 # Upload the dataset
