@@ -41,8 +41,13 @@ except ImportError:
 import io
 
 # Upload the dataset
-uploaded = files.upload()
+uploaded_file = st.file_uploader("Upload a file", type=["csv", "xlsx", "txt"]) 
 
+if uploaded_file is not None:
+    # Read the uploaded file
+    import pandas as pd
+    df = pd.read_csv(uploaded_file)  # Change this if the file is Excel (pd.read_excel)
+    st.write(df.head())
 # Load the dataset
 uploaded = files.upload()  # Upload the file again
 df = pd.read_csv(io.BytesIO(uploaded[list(uploaded.keys())[0]]))  # Read dynamically
