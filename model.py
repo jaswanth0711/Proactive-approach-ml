@@ -1,6 +1,6 @@
 
 
-pip install twilio
+import twilio
 file_path = "/mount/src/proactive-approach-ml/model.py"
 
 # Read file and remove invalid lines
