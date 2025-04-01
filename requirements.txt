@@ -6,3 +6,4 @@ scikit-learn
 twilio
 h5py
 pdfplumber
+matplotlib
