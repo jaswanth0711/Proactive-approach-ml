@@ -493,7 +493,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-"""import sqlite3
+import sqlite3
 from datetime import datetime, timedelta
 from twilio.rest import Client  # For SMS alerts
 
