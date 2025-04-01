@@ -7,3 +7,4 @@ twilio
 h5py
 pdfplumber
 matplotlib
+seaborn
