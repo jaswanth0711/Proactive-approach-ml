@@ -1,3 +1,6 @@
+
+
+pip install twilio
 file_path = "/mount/src/proactive-approach-ml/model.py"
 
 # Read file and remove invalid lines
@@ -370,7 +373,6 @@ def run_cmms_simulation():
 # Run the simulation
 run_cmms_simulation()
 
-pip install twilio
 
 import sqlite3
 from datetime import datetime, timedelta
