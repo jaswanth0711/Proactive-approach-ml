@@ -370,7 +370,7 @@ def run_cmms_simulation():
 # Run the simulation
 run_cmms_simulation()
 
-!pip install twilio
+pip install twilio
 
 import sqlite3
 from datetime import datetime, timedelta
